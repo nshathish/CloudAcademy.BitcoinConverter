@@ -44,3 +44,5 @@ jobs:
       with:
         files: |
           **/bin/**/*.dll
+      env:
+        GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
