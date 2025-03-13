@@ -28,4 +28,5 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: BitcoinConverter.Code.dll
-        path: **/bin/**/*.dll
+        path: |
+          **/bin/**/*.dll
